@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "ionic-react-card-profile",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

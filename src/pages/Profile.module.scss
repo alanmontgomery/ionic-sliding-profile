@@ -1,0 +1,152 @@
+.customHeader {
+
+	background-color: white;
+}
+
+.avatar {
+
+	border-radius: 10px !important;
+	height: 7.5rem;
+	width: 7.5rem;
+	z-index: 10;
+	box-shadow: rgba(50, 50, 93, 0.25) 0p\x 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.customBackButton {
+
+	position: absolute;
+	top: 2rem;
+	left: 1rem;
+	font-size: 1.75rem;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+
+		color: rgb(255, 255, 255);
+		height: 1.75rem;
+		width: 1.75rem;
+	}
+}
+
+.mainContent {
+
+	margin-top: -12.2rem !important;
+	z-index: 99;
+}
+
+.profileHeaderContainer {
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+}
+
+.profileHeader {
+
+	$grad_color: #f8f8f8;
+	$main_color: white;
+	margin-top: -4rem;
+	z-index: -1;
+	width: 100%;
+	opacity: 90%;
+
+	// background:
+	// 	linear-gradient(135deg, $grad_color 25%, transparent 25%) -50px 0,
+	// 	linear-gradient(225deg, $grad_color 25%, transparent 25%) -50px 0,
+	// 	linear-gradient(315deg, $grad_color 25%, transparent 25%),
+	// 	linear-gradient(45deg, $grad_color 25%, transparent 25%);
+	// 	background-size: 100px 100px;
+	// 	background-color: $main_color;
+}
+
+.profileDetails {
+
+	margin-top: 3rem;
+	text-align: center;
+
+	ion-card-title {
+
+		font-size: 1.2rem;
+		margin-top: 1rem;
+		color: rgb(85, 85, 85);
+	}
+
+	p {
+
+		font-size: 0.75rem;
+		color: #94c8fe;
+		margin-top: 0.2rem;
+	}
+}
+
+.profileStats {
+
+	margin-top: 2rem;
+}
+
+.title {
+
+	margin-top: -0.8rem;
+	font-size: 1.2rem;
+	color: rgb(85, 85, 85);
+}
+
+.collections {
+
+	margin-top: -1.2rem;
+}
+
+.collectionCard {
+
+	width: 8rem;
+	height: 10rem;
+
+	img {
+
+		height: 100%;
+		width: 100%;
+	}
+
+	.collectionDetails {
+
+		position: relative;
+		bottom: 4rem;
+		margin-left: 1rem;
+		background-color:rgba(36, 36, 36, 0.6);
+		padding: 0.5rem;
+		border-top-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+
+	ion-card-title {
+
+		color: white;
+		font-size: 0.9rem;
+	}
+
+	ion-note {
+
+		color: white;
+		font-size: 0.6rem;
+	}
+}
+
+.tag {
+
+	border-radius: 30px;
+	font-size: 0.8rem;
+	padding: 0.5rem;
+	font-weight: 600;
+	color: white;
+	text-align: center;
+	background: rgb(111,130,224);
+	background: linear-gradient(0deg, rgba(111,130,224,1) 26%, rgba(70,161,231,1) 82%);
+	border: 5px solid white;
+}
